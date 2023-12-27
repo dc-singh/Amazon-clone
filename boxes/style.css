@@ -1,0 +1,29 @@
+body{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex; */
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    right: 60%;
+    left: 40%;
+
+}
+
+.container{
+    background-color: pink;
+    height: 500px;
+    width: 300px;
+}
+
+.container p{
+    margin-left: 40px;
+}
+
+.image {
+    margin: 0px 0px 0px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
